@@ -1,6 +1,6 @@
 CREATE TABLE student_courses (
   studentid INTEGER,
-  course VARCHAR(20),
+  course VARCHAR(10),
   grade FLOAT DEFAULT NULL,
   PRIMARY KEY (studentid, course),
   FOREIGN KEY (studentid) REFERENCES students(id),
